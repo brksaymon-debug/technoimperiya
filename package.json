@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 5174 --strictPort",
-    "build": "tsc -b --pretty false && vite build",
+    "build": "tsc -b --pretty false && vite build && node scripts/precompress.mjs",
     "preview": "vite preview --host 0.0.0.0 --port 5174 --strictPort",
     "test": "vitest run",
     "start": "node --env-file-if-exists=.env server/app.mjs",

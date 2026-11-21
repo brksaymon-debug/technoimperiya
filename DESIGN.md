@@ -1,3 +1,5 @@
+> Historical design evolution below. Current implementation/evidence and unresolved performance gate: docs/MASTER-CLOSEOUT.md. Node/SQLite admin/orders work locally; Pages remains static preview.
+
 > CURRENT UPDATE: the separate new transparent PNG is now complete and integrated over a clean plate. See PNG-COMPLETION.md. Prior no-PNG statements below describe the earlier pass only.
 
 # Актуальное уточнение — чёрно-красный физический магазин + Дед Мороз
@@ -33,3 +35,8 @@ Vercel: React ViewTransition сохранён только для product contin
 
 ## Что не утверждается
 Это frontend-концепция, не готовый production-backend; тесты не доказывают «лучший магазин» или субъективный уровень 2026 года. Нет human video review, device-lab/cross-browser/полного WCAG/Core Web Vitals аудита. Наследованные compressed source/переопределения CSS и дальнейшая интеграция данных остаются техническим долгом. Код предыдущей версии сохранён в /workspace/technoimperiya-before-holiday-world/.
+
+
+## t836 reference-informed signature (no concept restart)
+Idea: the room is the TV showroom; the picture becomes the buying surface. Signature: a short compositor camera push while leaving the existing grounded hero, then a visibly expanding TV inside its collection mask over a controlled red material panel. No added scroll height, pinning or catalog gating. Emotion: warm, assured technical retail. Motion verb: frame → open → choose. Screenshot frame: hero camera/first collection at .2/.4 progress.
+Reference provenance: parent actually reviewed ESE /2732 and Kaide /2736 videos; executor inspected frames at6s/5s. Borrowed principles only (TV-as-mask, material panel stacking), not assets/branding or presumed GSAP/3D implementation. Source videos stay outside publication.
