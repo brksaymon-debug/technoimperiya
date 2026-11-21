@@ -1,0 +1,41 @@
+{
+  "checks": [
+    "Protected administrator login works in production build",
+    "Actual PNG upload and persisted draft, hidden from public catalog",
+    "Publish/edit workflow exposes real database products, not localStorage",
+    "Approved holiday storefront has no horizontal overflow at 360/768/1024/1440",
+    "Live cart/favorite IDs persist across asynchronous catalog reload",
+    "Live uploaded photo, product detail and comparison operate on server data",
+    "Mobile validated checkout creates a real order with authoritative server price and stock reservation",
+    "Administrator reads buyer order and cancellation correctly restores inventory",
+    "Unpublish and archive remove products publicly without losing order history",
+    "Logout invalidates the server session",
+    "No browser runtime errors"
+  ],
+  "sizes": [
+    {
+      "width": 360,
+      "document": 360
+    },
+    {
+      "width": 768,
+      "document": 768
+    },
+    {
+      "width": 1024,
+      "document": 1024
+    },
+    {
+      "width": 1440,
+      "document": 1440
+    }
+  ],
+  "errors": [],
+  "fixture": "All products, contacts, orders and auth were synthetic in an isolated temporary database; removed after test. Actual store database never populated.",
+  "screenshots": [
+    "managed-store-admin-desktop.png",
+    "managed-store-admin-mobile.png",
+    "managed-store-checkout-mobile.png",
+    "managed-store-order.png"
+  ]
+}

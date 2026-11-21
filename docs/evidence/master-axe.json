@@ -1,0 +1,138 @@
+[
+  {
+    "width": 1440,
+    "route": "home",
+    "url": "http://127.0.0.1:44831/technoimperiya/",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 1
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 57
+      }
+    ],
+    "passes": 48
+  },
+  {
+    "width": 1440,
+    "route": "catalog",
+    "url": "http://127.0.0.1:44831/technoimperiya/#/catalog",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 51
+      }
+    ],
+    "passes": 46
+  },
+  {
+    "width": 360,
+    "route": "home",
+    "url": "http://127.0.0.1:44831/technoimperiya/",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 1
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 84
+      }
+    ],
+    "passes": 48
+  },
+  {
+    "width": 360,
+    "route": "catalog",
+    "url": "http://127.0.0.1:44831/technoimperiya/#/catalog",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 53
+      }
+    ],
+    "passes": 47
+  },
+  {
+    "width": 360,
+    "route": "product/demo-01",
+    "url": "http://127.0.0.1:44831/technoimperiya/#/product/demo-01",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 30
+      }
+    ],
+    "passes": 48
+  },
+  {
+    "width": 360,
+    "route": "compare",
+    "url": "http://127.0.0.1:44831/technoimperiya/#/compare",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 11
+      }
+    ],
+    "passes": 45
+  },
+  {
+    "width": 360,
+    "route": "checkout",
+    "url": "http://127.0.0.1:44831/technoimperiya/#/checkout",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 19
+      }
+    ],
+    "passes": 44
+  },
+  {
+    "width": 360,
+    "route": "privacy",
+    "url": "http://127.0.0.1:44831/technoimperiya/#/privacy",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 8
+      }
+    ],
+    "passes": 43
+  },
+  {
+    "width": 360,
+    "route": "missing-page",
+    "url": "http://127.0.0.1:44831/technoimperiya/#/missing-page",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 4
+      }
+    ],
+    "passes": 43
+  }
+]

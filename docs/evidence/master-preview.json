@@ -1,0 +1,135 @@
+{
+  "checks": [
+    "Responsive 360/768/1024/1440: no overflow; complete original transparent PNG with preserved ratio; self-hosted Cyrillic typography",
+    "One global honest preview disclosure; 5 native FAQ; atmospheric visual surfaces retained",
+    "Keyboard collection activation immediately opens condition-filtered existing catalog",
+    "Cart add, accessible dialog, quantity and close controls remain functional",
+    "Unique route titles/descriptions, canonical/OG/Twitter/JSON-LD, no demo Offers, prelaunch noindex, real 404 UI",
+    "Mobile sticky checkout CTA uses the existing validated form; no false thank-you; static admin is explicitly unavailable",
+    "Mobile touch card navigation filters existing items, no horizontal overflow",
+    "Native scroll reaches all lower content and keyboard-native FAQ; reduced-motion surfaces immediately final",
+    "Actual scroll changes only atmospheric/image depth; orchestrated hero and scroll visuals coexist with immediate actions",
+    "Obvious room-camera and collection-screen scale actually change on scroll; manual motion reduction and honest no-JS fallback work",
+    "No runtime exceptions, missing assets or backend requests in static preview"
+  ],
+  "sizes": [
+    {
+      "width": 360,
+      "document": 360,
+      "logoWidth": 184,
+      "logoHeight": 63.328125,
+      "naturalWidth": 184,
+      "src": "http://127.0.0.1:43297/technoimperiya/art/brand-header-transparent-compact.png",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Commissioner, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "document": 768,
+      "logoWidth": 224,
+      "logoHeight": 77.109375,
+      "naturalWidth": 224,
+      "src": "http://127.0.0.1:43297/technoimperiya/art/brand-header-transparent-compact.png",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Commissioner, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "document": 1024,
+      "logoWidth": 244,
+      "logoHeight": 83.984375,
+      "naturalWidth": 268,
+      "src": "http://127.0.0.1:43297/technoimperiya/art/brand-header-transparent-compact.png",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Commissioner, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "document": 1440,
+      "logoWidth": 268,
+      "logoHeight": 92.25,
+      "naturalWidth": 268,
+      "src": "http://127.0.0.1:43297/technoimperiya/art/brand-header-transparent-compact.png",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Commissioner, Arial, sans-serif"
+    }
+  ],
+  "titles": {
+    "catalog": "Каталог телевизоров — Техноимперия",
+    "compare": "Сравнение телевизоров — Техноимперия",
+    "privacy": "Персональные данные — Техноимперия",
+    "checkout": "Оформление заказа — Техноимперия",
+    "missing-page": "Страница не найдена — Техноимперия"
+  },
+  "reduced": {
+    "opacity": "1",
+    "clip": "none"
+  },
+  "depthTransforms": [
+    "matrix(1, 0, 0, 1, 0, -13.6773)",
+    "matrix(1, 0, 0, 1, 0, -11.1176)"
+  ],
+  "timing": {
+    "navigation": {
+      "name": "http://127.0.0.1:43297/technoimperiya/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 25.5,
+      "navigationId": 5902,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.30000000074505806,
+      "domainLookupStart": 0.30000000074505806,
+      "domainLookupEnd": 0.30000000074505806,
+      "connectStart": 0.30000000074505806,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.30000000074505806,
+      "requestStart": 1.0999999977648258,
+      "responseStart": 1.8999999985098839,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 1.8999999985098839,
+      "responseEnd": 2.099999997764826,
+      "transferSize": 2956,
+      "encodedBodySize": 2656,
+      "decodedBodySize": 2656,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 4,
+      "unloadEventEnd": 4,
+      "domInteractive": 9.800000000745058,
+      "domContentLoadedEventStart": 25.300000000745058,
+      "domContentLoadedEventEnd": 25.300000000745058,
+      "domComplete": 25.399999998509884,
+      "loadEventStart": 25.5,
+      "loadEventEnd": 25.5,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "lcpMs": 180,
+    "cls": 0.00014718013468013468,
+    "resourceEncodedBytes": 1924340
+  },
+  "errors": [],
+  "missingAssets": [],
+  "backendRequests": [],
+  "toolLimits": "Real Lighthouse13.6/axe4.14 results are stored separately. Local headless measurements are not field Core Web Vitals or a WCAG certification.",
+  "supersededCheck": "Background parallax assertion predates final deliberate static-background change. Hero/collection signature code remains unchanged; new desktop/mobile screenshots show final build."
+}

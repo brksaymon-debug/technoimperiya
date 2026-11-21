@@ -1,0 +1,46 @@
+{
+  "mobileLighthouse": {
+    "version": "13.6.0",
+    "scores": {
+      "performance": 82,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 909.6735000000001,
+      "largest-contentful-paint": 4514.510249999999,
+      "total-blocking-time": 187,
+      "cumulative-layout-shift": 0
+    },
+    "provenance": "Actual asset-final mobile run; reused, not rerun after static decorative-background change.",
+    "rawReport": "/workspace/technoimperiya-t836/asset-final-lighthouse-mobile.json"
+  },
+  "desktopFinal": [
+    {
+      "device": "desktop",
+      "cpuThrottle": 1,
+      "frames": 150,
+      "p95GapMs": 50,
+      "maxGapMs": 83.20000000000027,
+      "gapsOver33ms": 29,
+      "longTasks": [],
+      "scrollDistance": 2734,
+      "overflow": 0
+    }
+  ],
+  "mobilePrevious": {
+    "device": "mobile",
+    "cpuThrottle": 4,
+    "frames": 150,
+    "p95GapMs": 16.700000000000273,
+    "maxGapMs": 16.800000000000182,
+    "gapsOver33ms": 0,
+    "longTasks": [],
+    "scrollDistance": 3313,
+    "overflow": 0
+  },
+  "limitation": "Chrome uses SwiftShader software Vulkan. Desktop p95 target remains unmet; no real-device60FPS/field INP claim.",
+  "main": "/technoimperiya/assets/index-B4ovfcMw.js",
+  "css": "/technoimperiya/assets/index-DvwsPMzy.css"
+}

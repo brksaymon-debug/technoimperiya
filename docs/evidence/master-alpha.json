@@ -1,0 +1,17 @@
+{
+  "file": "/workspace/technoimperiya-local/public/art/brand-header-transparent.png",
+  "size": [
+    2138,
+    736
+  ],
+  "mode": "RGBA",
+  "transparentPixels": 480986,
+  "partialAlphaPixels": 22010,
+  "opaquePixels": 1070572,
+  "opaqueRGBUnchanged": true,
+  "method": "8-connected exterior near-black flood fill, preserved enclosed shading, local one-pixel edge unmatting",
+  "originalSHA256": "ff4e3efc5e0c7cc1835bd525ad42d7984732bb7493fb3ea93a9eaecbd1580693",
+  "generation": false,
+  "crop": false,
+  "upscale": false
+}
