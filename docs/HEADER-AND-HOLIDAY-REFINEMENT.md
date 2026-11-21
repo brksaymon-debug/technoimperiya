@@ -1,0 +1,6 @@
+# Original brand and connected holiday collections
+Owner-supplied `original-art/header-original.jpg` is preserved byte-for-byte. The public `art/brand-header-original.webp` is the decoded original rotated exactly 90° counter-clockwise, 2138 × 736 px, lossless WebP. No crop, retyping, recolouring, generation or upscale; decoded RGB pixels checked identical after rotation. The complete artwork replaces the previous typed logo, once, in the functional header.
+
+Pine/lighting atmosphere derives only from our existing authorized showroom image, not the design-reference screenshot. The reference is not copied into public assets or upload delta. Three editorial collections use our existing screen imagery in DOM television frames, with real category/condition navigation and illustrative-collection labeling. No merchandise/prices/stock/discounts were invented. Existing TV 30–70% demonstration label remains. Original brand-art advertising wording is owner supplied, not a verified price feed.
+
+Motion: brief hover depth and press response on collection links; product/route transitions retained; cart count spring confirms actual additions; keyboard focus, touch activation and reduced-motion supported. Backend/admin/order logic unchanged. GitHub Pages remains explicitly static, with demo-only checkout.
