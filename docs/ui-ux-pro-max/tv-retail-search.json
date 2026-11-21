@@ -1,0 +1,28 @@
+{
+  "domain": "product",
+  "query": "electronics television ecommerce",
+  "file": "products.csv",
+  "count": 2,
+  "results": [
+    {
+      "Product Type": "E-commerce",
+      "Keywords": "buy, commerce, e, ecommerce, products, retail, sell, shop, store",
+      "Primary Style Recommendation": "Vibrant & Block-based",
+      "Secondary Styles": "Aurora UI , Motion-Driven",
+      "Landing Page Pattern": "Feature-Rich Showcase",
+      "Dashboard Style (if applicable)": "Sales Intelligence Dashboard",
+      "Color Palette Focus": "Brand primary + success green",
+      "rtl_level": "partial"
+    },
+    {
+      "Product Type": "E-commerce Luxury",
+      "Keywords": "buy, commerce, e, ecommerce, elegant, exclusive, high-end, luxury, premium, products, retail, sell, shop, store",
+      "Primary Style Recommendation": "Liquid Glass + Glassmorphism",
+      "Secondary Styles": "3D & Hyperrealism , Aurora UI",
+      "Landing Page Pattern": "Feature-Rich Showcase",
+      "Dashboard Style (if applicable)": "Sales Intelligence Dashboard",
+      "Color Palette Focus": "Premium colors + minimal accent",
+      "rtl_level": "partial"
+    }
+  ]
+}

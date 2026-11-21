@@ -1,0 +1,37 @@
+{
+  "domain": "stack",
+  "stack": "react",
+  "query": "lazy suspense code splitting",
+  "file": "stacks/react.csv",
+  "count": 2,
+  "results": [
+    {
+      "Category": "Performance",
+      "Guideline": "Lazy load components",
+      "Description": "Use React.lazy for code splitting",
+      "Do": "lazy() for routes and heavy components",
+      "Don't": "Import everything upfront",
+      "Code Good": "const Page = lazy(() => import('./Page'))",
+      "Code Bad": "import Page from './Page'",
+      "Severity": "Medium",
+      "Docs URL": "https://react.dev/reference/react/lazy",
+      "Applies To": "react 19.2.x",
+      "Status": "active",
+      "Verified At": "2026-08-13"
+    },
+    {
+      "Category": "Props",
+      "Guideline": "Destructure props",
+      "Description": "Destructure props for cleaner component code",
+      "Do": "Destructure in function signature",
+      "Don't": "props.name props.value throughout",
+      "Code Good": "function User({ name, age })",
+      "Code Bad": "function User(props)",
+      "Severity": "Low",
+      "Docs URL": "",
+      "Applies To": "react 19.2.x",
+      "Status": "active",
+      "Verified At": "2026-08-13"
+    }
+  ]
+}
