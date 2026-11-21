@@ -21,6 +21,7 @@ import "./holiday-world.css";
 import "./black-red.css";
 import "./admin.css";
 import "./holiday-refinement.css";
+import "./store-cleanup.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
