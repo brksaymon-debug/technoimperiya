@@ -1,0 +1,15 @@
+:root {
+  --ti-bg: #08090d;
+  --ti-bg-soft: #111116;
+  --ti-card: #1b1921;
+  --ti-card-border: rgba(255,255,255,.10);
+  --ti-red: #e50920;
+  --ti-red-bright: #ff3445;
+  --ti-text: #fff;
+  --ti-muted: #a7a5ae;
+  --ti-radius-sm: 12px;
+  --ti-radius-md: 18px;
+  --ti-radius-lg: 26px;
+  --ti-shadow: 0 18px 55px rgba(0,0,0,.42);
+  --ti-red-glow: 0 0 28px rgba(229,9,32,.22);
+}

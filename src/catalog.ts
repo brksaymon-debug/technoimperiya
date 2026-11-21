@@ -19,7 +19,7 @@ export const brands = ['Samsung','LG','Hisense','TCL','Xiaomi','Haier'];
 export const categories = [{id:'all',name:'Вся техника'}, {id:'tv',name:'Телевизоры'}, {id:'audio',name:'Аудиотехника'}, {id:'home',name:'Техника для дома'}, {id:'accessories',name:'Аксессуары'}];
 export const money = (value: number) => new Intl.NumberFormat('ru-RU').format(value) + ' ₽';
 export function filterProducts(products: Product[], query: {q?:string;brand?:string;category?:string;condition?:string;max?:number;sort?:string}) {
- const list=products.filter(p => (!query.q || `${p.name} ${p.brand}`.toLowerCase().includes(query.q.toLowerCase().trim())) && (!query.brand || p.brand===query.brand) && (!query.category || query.category==='all'|| p.category===query.category) && (!query.condition || p.condition===query.condition) && (!query.max || p.price<=query.max));
+ const list=products.filter(p => (!query.q || `${p.name} ${p.brand} ${(p.features??[]).join(" ")} ${Object.values(p.specs??{}).join(" ")}`.toLowerCase().includes(query.q.toLowerCase().trim())) && (!query.brand || p.brand===query.brand) && (!query.category || query.category==='all'|| p.category===query.category) && (!query.condition || p.condition===query.condition) && (!query.max || p.price<=query.max));
  return list.sort((a,b)=>query.sort==='price-up'?a.price-b.price:query.sort==='price-down'?b.price-a.price:query.sort==='diagonal'?b.diagonal-a.diagonal:a.id.localeCompare(b.id));
 }
 
