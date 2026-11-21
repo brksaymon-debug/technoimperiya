@@ -1,3 +1,5 @@
+> Current authoritative closeout: [MASTER-CLOSEOUT.md](MASTER-CLOSEOUT.md). Earlier entries below are historical measurements.
+
 # Lighthouse и axe: реальные измерения
 
 21 ноября 2026, Asia/Shanghai (UTC+8). Lighthouse 13.6.0 и axe-core 4.14.0 установлены разово в /workspace/technoimperiya-audit-tools с --ignore-scripts, вне проекта. Production-зависимости и lockfile не изменены. Chrome 156, подготовленный локальный Pages build /technoimperiya/.

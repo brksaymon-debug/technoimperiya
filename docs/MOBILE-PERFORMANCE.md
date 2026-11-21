@@ -1,3 +1,5 @@
+> Current authoritative closeout: [MASTER-CLOSEOUT.md](MASTER-CLOSEOUT.md). Earlier entries below are historical measurements.
+
 # Узкая оптимизация мобильного критического пути
 
 Реальный LCP-элемент из Lighthouse: .holiday-environment. Сам фон был 107390 байт, но гораздо больший сетевой объём делили PNG Деда Мороза 822218 байт и логотипа 563255 байт. Переписывание приложения не предпринималось.

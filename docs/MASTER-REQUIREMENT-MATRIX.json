@@ -1,0 +1,831 @@
+{
+  "scope": "Complete t835 sections1–11 and all20prelaunch points; no blanket completion claim",
+  "qualityGate": "FUNCTIONAL VERIFIED; PERFORMANCE ACCEPTANCE OPEN — desktop software-rendered p95 frame gap50ms; do not claim entire master completed or production ready",
+  "rows": [
+    {
+      "id": "1.1",
+      "section": "1 Tools and engineering",
+      "requirement": "Existing repository/source preserved; local implementation only",
+      "status": "implemented-verified",
+      "evidence": [
+        "MASTER-CLOSEOUT.md",
+        "../package.json",
+        "../vite.config.ts"
+      ]
+    },
+    {
+      "id": "1.2",
+      "section": "1 Tools and engineering",
+      "requirement": "Node/npm/React/TypeScript/git available and used",
+      "status": "implemented-verified",
+      "evidence": [
+        "MASTER-CLOSEOUT.md",
+        "../package.json",
+        "../vite.config.ts"
+      ]
+    },
+    {
+      "id": "1.3",
+      "section": "1 Tools and engineering",
+      "requirement": "Current UI system and actual Telegram reference review applied; Figma optional not required",
+      "status": "implemented-verified",
+      "evidence": [
+        "MASTER-CLOSEOUT.md",
+        "../package.json",
+        "../vite.config.ts"
+      ]
+    },
+    {
+      "id": "1.4",
+      "section": "1 Tools and engineering",
+      "requirement": "Framer Motion/native CSS/ViewTransition used; no redundant GSAP/Lenis/WebGL",
+      "status": "implemented-verified",
+      "evidence": [
+        "MASTER-CLOSEOUT.md",
+        "../package.json",
+        "../vite.config.ts"
+      ]
+    },
+    {
+      "id": "1.5",
+      "section": "1 Tools and engineering",
+      "requirement": "Sharp image processing; Lighthouse/axe/Playwright/Chrome real checks",
+      "status": "implemented-verified",
+      "evidence": [
+        "MASTER-CLOSEOUT.md",
+        "../package.json",
+        "../vite.config.ts"
+      ]
+    },
+    {
+      "id": "2.1",
+      "section": "2 Audit",
+      "requirement": "Architecture and all active component/route graph inspected; legacy audit reused",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-managed-store.json"
+      ]
+    },
+    {
+      "id": "2.2",
+      "section": "2 Audit",
+      "requirement": "Catalog/filter/search/product images/specs and price/markup audited",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-managed-store.json"
+      ]
+    },
+    {
+      "id": "2.3",
+      "section": "2 Audit",
+      "requirement": "Cart, quantity, server totals, checkout/forms and admin flow audited",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-managed-store.json"
+      ]
+    },
+    {
+      "id": "2.4",
+      "section": "2 Audit",
+      "requirement": "Mobile/console/performance/SEO defects prioritized with evidence",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-managed-store.json"
+      ]
+    },
+    {
+      "id": "2.5",
+      "section": "2 Audit",
+      "requirement": "No invented price markup or discount rules",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-managed-store.json"
+      ]
+    },
+    {
+      "id": "3.1",
+      "section": "3 Cohesive UI",
+      "requirement": "Original alpha logo, black/red holiday room, Santa/floor gifts/TV support preserved",
+      "status": "implemented-verified",
+      "evidence": [
+        "../DESIGN.md",
+        "../src/scroll-craft.css",
+        "MASTER-CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "3.2",
+      "section": "3 Cohesive UI",
+      "requirement": "Tokens/type/grid/spacing/radii/states unified for current screens",
+      "status": "implemented-verified",
+      "evidence": [
+        "../DESIGN.md",
+        "../src/scroll-craft.css",
+        "MASTER-CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "3.3",
+      "section": "3 Cohesive UI",
+      "requirement": "Historical unused CSS selectors and superseded declarations removed in build, rule order preserved",
+      "status": "implemented-verified",
+      "evidence": [
+        "../DESIGN.md",
+        "../src/scroll-craft.css",
+        "MASTER-CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "3.4",
+      "section": "3 Cohesive UI",
+      "requirement": "Meaningless repeated copy removed; empty inventory truthful",
+      "status": "implemented-verified",
+      "evidence": [
+        "../DESIGN.md",
+        "../src/scroll-craft.css",
+        "MASTER-CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "3.5",
+      "section": "3 Cohesive UI",
+      "requirement": "Header/menu/catalog/forms/mobile targets consistent",
+      "status": "implemented-verified",
+      "evidence": [
+        "../DESIGN.md",
+        "../src/scroll-craft.css",
+        "MASTER-CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "4.1",
+      "section": "4 Motion",
+      "requirement": "Hero image/type/CTA intro, grounded room camera",
+      "status": "implemented-verified",
+      "evidence": [
+        "../src/HolidayHero.tsx",
+        "../src/HolidayCollections.tsx",
+        "evidence/master-native-transition.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "4.2",
+      "section": "4 Motion",
+      "requirement": "Bounded room-camera push then TV image expansion inside collection artwork with red material panel; no claim of continuous portal or WebGL",
+      "status": "implemented-verified",
+      "evidence": [
+        "../src/HolidayHero.tsx",
+        "../src/HolidayCollections.tsx",
+        "evidence/master-native-transition.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "4.3",
+      "section": "4 Motion",
+      "requirement": "Native scroll/progress, no pinned scene or artificial signature spacer; real spec controls retain normal document height",
+      "status": "implemented-verified",
+      "evidence": [
+        "../src/HolidayHero.tsx",
+        "../src/HolidayCollections.tsx",
+        "evidence/master-native-transition.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "4.4",
+      "section": "4 Motion",
+      "requirement": "Product hover/focus image and native details specs on touch/keyboard",
+      "status": "implemented-verified",
+      "evidence": [
+        "../src/HolidayHero.tsx",
+        "../src/HolidayCollections.tsx",
+        "evidence/master-native-transition.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "4.5",
+      "section": "4 Motion",
+      "requirement": "Add-to-cart feedback and price/quantity emphasis",
+      "status": "implemented-verified",
+      "evidence": [
+        "../src/HolidayHero.tsx",
+        "../src/HolidayCollections.tsx",
+        "evidence/master-native-transition.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "4.6",
+      "section": "4 Motion",
+      "requirement": "Shared product-image ViewTransitions where browser/React supports them",
+      "status": "implemented-verified",
+      "evidence": [
+        "../src/HolidayHero.tsx",
+        "../src/HolidayCollections.tsx",
+        "evidence/master-native-transition.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "4.7",
+      "section": "4 Motion",
+      "requirement": "Cart opening/loading/error/success and short microstates",
+      "status": "implemented-verified",
+      "evidence": [
+        "../src/HolidayHero.tsx",
+        "../src/HolidayCollections.tsx",
+        "evidence/master-native-transition.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "4.8",
+      "section": "4 Motion",
+      "requirement": "Reduced-motion/manual motion preference and offscreen pause",
+      "status": "implemented-verified",
+      "evidence": [
+        "../src/HolidayHero.tsx",
+        "../src/HolidayCollections.tsx",
+        "evidence/master-native-transition.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "4.9",
+      "section": "4 Motion",
+      "requirement": "No-JS visible truthful fallback; no fake no-JS ordering",
+      "status": "implemented-verified",
+      "evidence": [
+        "../src/HolidayHero.tsx",
+        "../src/HolidayCollections.tsx",
+        "evidence/master-native-transition.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "5.1",
+      "section": "5 Commerce",
+      "requirement": "Hero immediately links to catalog, TV category and comparison",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-managed-store.json",
+        "../server/store.test.mjs"
+      ]
+    },
+    {
+      "id": "5.2",
+      "section": "5 Commerce",
+      "requirement": "Real product photos/specs/condition/stock are admin-managed",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-managed-store.json",
+        "../server/store.test.mjs"
+      ]
+    },
+    {
+      "id": "5.3",
+      "section": "5 Commerce",
+      "requirement": "Clear server-authoritative prices, no invented discount/markup",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-managed-store.json",
+        "../server/store.test.mjs"
+      ]
+    },
+    {
+      "id": "5.4",
+      "section": "5 Commerce",
+      "requirement": "Real persistent inventory publish/unpublish/archive and images",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-managed-store.json",
+        "../server/store.test.mjs"
+      ]
+    },
+    {
+      "id": "5.5",
+      "section": "5 Commerce",
+      "requirement": "Cart/search/favorites/compare/checkout still working",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-managed-store.json",
+        "../server/store.test.mjs"
+      ]
+    },
+    {
+      "id": "5.6",
+      "section": "5 Commerce",
+      "requirement": "Orders only acknowledged after server save; no online payment claim",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-managed-store.json",
+        "../server/store.test.mjs"
+      ]
+    },
+    {
+      "id": "6.1",
+      "section": "6 Responsive",
+      "requirement": "Header/nav at360/390/768/1024/1440",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-preview.json",
+        "evidence/master-managed-store.json"
+      ]
+    },
+    {
+      "id": "6.2",
+      "section": "6 Responsive",
+      "requirement": "Filters/product cards/detail/cart/checkout responsive",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-preview.json",
+        "evidence/master-managed-store.json"
+      ]
+    },
+    {
+      "id": "6.3",
+      "section": "6 Responsive",
+      "requirement": "Mobile order action and quick specs touch/keyboard parity",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-preview.json",
+        "evidence/master-managed-store.json"
+      ]
+    },
+    {
+      "id": "6.4",
+      "section": "6 Responsive",
+      "requirement": "No overflow/overlaps, readable type and crisp responsive assets",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-preview.json",
+        "evidence/master-managed-store.json"
+      ]
+    },
+    {
+      "id": "6.5",
+      "section": "6 Responsive",
+      "requirement": "Lighter mobile scene; no scroll pinning",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-preview.json",
+        "evidence/master-managed-store.json"
+      ]
+    },
+    {
+      "id": "7.1",
+      "section": "7 Performance",
+      "requirement": "Responsive alpha art and early LCP discovery maintained",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-performance.json",
+        "../scripts/compact-styles.mjs",
+        "../server/app.mjs"
+      ]
+    },
+    {
+      "id": "7.2",
+      "section": "7 Performance",
+      "requirement": "Route-level code splitting, lightweight Motion feature provider",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-performance.json",
+        "../scripts/compact-styles.mjs",
+        "../server/app.mjs"
+      ]
+    },
+    {
+      "id": "7.3",
+      "section": "7 Performance",
+      "requirement": "Build CSS compaction and critical Cyrillic font preload",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-performance.json",
+        "../scripts/compact-styles.mjs",
+        "../server/app.mjs"
+      ]
+    },
+    {
+      "id": "7.4",
+      "section": "7 Performance",
+      "requirement": "Real Node precompressed asset serving/cache headers and production-like QA",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-performance.json",
+        "../scripts/compact-styles.mjs",
+        "../server/app.mjs"
+      ]
+    },
+    {
+      "id": "7.5",
+      "section": "7 Performance",
+      "requirement": "Before/after Chrome scroll traces/longtasks; real Lighthouse lab results",
+      "status": "measured-desktop-target-unmet",
+      "evidence": [
+        "evidence/master-performance.json"
+      ]
+    },
+    {
+      "id": "7.6",
+      "section": "7 Performance",
+      "requirement": "No 60FPS/field INP claim, no hidden preload/visibility tricks",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-performance.json",
+        "../scripts/compact-styles.mjs",
+        "../server/app.mjs"
+      ]
+    },
+    {
+      "id": "9.1",
+      "section": "9 QA",
+      "requirement": "Production source/Pages builds and route buyer checks",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-axe.json",
+        "evidence/master-managed-store.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "9.2",
+      "section": "9 QA",
+      "requirement": "Catalog → add → quantity → totals → form → confirmed-only success",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-axe.json",
+        "evidence/master-managed-store.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "9.3",
+      "section": "9 QA",
+      "requirement": "Responsive, keyboard, touch, motion/reduced-motion checks",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-axe.json",
+        "evidence/master-managed-store.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "9.4",
+      "section": "9 QA",
+      "requirement": "Isolated backend/admin upload-publish-order-restart-security checks; QA data removed",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-axe.json",
+        "evidence/master-managed-store.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "9.5",
+      "section": "9 QA",
+      "requirement": "Real Lighthouse/axe reviewed; four apparent missing-H1 results resolved by waiting for actual lazy route;9scans zero violations",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-axe.json",
+        "evidence/master-managed-store.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "9.6",
+      "section": "9 QA",
+      "requirement": "Few final screenshots and visible motion-state evidence",
+      "status": "implemented-verified",
+      "evidence": [
+        "evidence/master-axe.json",
+        "evidence/master-managed-store.json",
+        "evidence/master-preview.json"
+      ]
+    },
+    {
+      "id": "10.1",
+      "section": "10 Preservation",
+      "requirement": "Snapshot /workspace/technoimperiya-t836-backup-05nuyc6q before broad changes",
+      "status": "implemented-verified",
+      "evidence": [
+        "MASTER-CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "10.2",
+      "section": "10 Preservation",
+      "requirement": "No framework replacement, new invented goods or altered pricing rules",
+      "status": "implemented-verified",
+      "evidence": [
+        "MASTER-CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "10.3",
+      "section": "10 Preservation",
+      "requirement": "No private database/auth/uploads/env/ref video publication",
+      "status": "implemented-verified",
+      "evidence": [
+        "MASTER-CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "10.4",
+      "section": "10 Preservation",
+      "requirement": "No remote deployment, ORBITA, user PC or CloudAgent action",
+      "status": "implemented-verified",
+      "evidence": [
+        "MASTER-CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "11.1",
+      "section": "11 Resource economy",
+      "requirement": "Reused prior findings and tests; focused real changes",
+      "status": "implemented-verified",
+      "evidence": [
+        "MASTER-CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "11.2",
+      "section": "11 Resource economy",
+      "requirement": "One motion direction from actual references, no alternatives/image generation",
+      "status": "implemented-verified",
+      "evidence": [
+        "MASTER-CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "11.3",
+      "section": "11 Resource economy",
+      "requirement": "No new runtime libraries/paid services; isolated existing audit tools",
+      "status": "implemented-verified",
+      "evidence": [
+        "MASTER-CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "11.4",
+      "section": "11 Resource economy",
+      "requirement": "Final closeout reused all valid functional tests/Lighthouse; one targeted desktop trace after one full-page decorative-layer change",
+      "status": "implemented-verified",
+      "evidence": [
+        "MASTER-CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "11.5",
+      "section": "11 Resource economy",
+      "requirement": "One final publication delta only after quality acceptance",
+      "status": "prepared-not-published-awaiting-quality-acceptance",
+      "evidence": [
+        "MASTER-CLOSEOUT.md"
+      ]
+    },
+    {
+      "id": "8.1",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Custom404 and home/catalog links",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-axe.json",
+        "../src/RouteMeta.tsx"
+      ]
+    },
+    {
+      "id": "8.2",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "First-screen shopping CTA",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-axe.json",
+        "../src/RouteMeta.tsx"
+      ]
+    },
+    {
+      "id": "8.3",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Internal navigation/deep links",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-axe.json",
+        "../src/RouteMeta.tsx"
+      ]
+    },
+    {
+      "id": "8.4",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Thank-you only after confirmed server order",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-axe.json",
+        "../src/RouteMeta.tsx"
+      ]
+    },
+    {
+      "id": "8.5",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Breadcrumbs and breadcrumb schema",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-axe.json",
+        "../src/RouteMeta.tsx"
+      ]
+    },
+    {
+      "id": "8.6",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Case studies",
+      "status": "not-applicable-TV-retail",
+      "evidence": [
+        "MASTER-CLOSEOUT.md",
+        "PRELAUNCH-AUDIT.md"
+      ]
+    },
+    {
+      "id": "8.7",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Five FAQ questions",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-axe.json",
+        "../src/RouteMeta.tsx"
+      ]
+    },
+    {
+      "id": "8.8",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Two-hour response guarantee",
+      "status": "owner-facts-not-supplied-omit",
+      "evidence": [
+        "MASTER-CLOSEOUT.md",
+        "PRELAUNCH-AUDIT.md"
+      ]
+    },
+    {
+      "id": "8.9",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Mobile order CTA",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-axe.json",
+        "../src/RouteMeta.tsx"
+      ]
+    },
+    {
+      "id": "8.10",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "robots/meta robots prelaunch control",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-axe.json",
+        "../src/RouteMeta.tsx"
+      ]
+    },
+    {
+      "id": "8.11",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Unique route titles",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-axe.json",
+        "../src/RouteMeta.tsx"
+      ]
+    },
+    {
+      "id": "8.12",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Unique descriptions",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-axe.json",
+        "../src/RouteMeta.tsx"
+      ]
+    },
+    {
+      "id": "8.13",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "OG/Twitter previews",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-axe.json",
+        "../src/RouteMeta.tsx"
+      ]
+    },
+    {
+      "id": "8.14",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Actual location/map",
+      "status": "owner-facts-not-supplied-omit",
+      "evidence": [
+        "MASTER-CLOSEOUT.md",
+        "PRELAUNCH-AUDIT.md"
+      ]
+    },
+    {
+      "id": "8.15",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Real customer reviews",
+      "status": "owner-facts-not-supplied-omit",
+      "evidence": [
+        "MASTER-CLOSEOUT.md",
+        "PRELAUNCH-AUDIT.md"
+      ]
+    },
+    {
+      "id": "8.16",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Meaningful ALT",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-axe.json",
+        "../src/RouteMeta.tsx"
+      ]
+    },
+    {
+      "id": "8.17",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Appropriate schema, real offers only",
+      "status": "implemented-verified",
+      "evidence": [
+        "PRELAUNCH-AUDIT.md",
+        "evidence/master-axe.json",
+        "../src/RouteMeta.tsx"
+      ]
+    },
+    {
+      "id": "8.18",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Final legal/privacy operator details",
+      "status": "implemented-factual-readiness-owner-legal-data-required",
+      "evidence": [
+        "MASTER-CLOSEOUT.md",
+        "PRELAUNCH-AUDIT.md"
+      ]
+    },
+    {
+      "id": "8.19",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Google Analytics actual identifier",
+      "status": "owner-ID-not-supplied-no-tracker",
+      "evidence": [
+        "MASTER-CLOSEOUT.md",
+        "PRELAUNCH-AUDIT.md"
+      ]
+    },
+    {
+      "id": "8.20",
+      "section": "8 SEO and20prelaunchpoints",
+      "requirement": "Actual team photographs",
+      "status": "owner-assets-not-supplied-omit",
+      "evidence": [
+        "MASTER-CLOSEOUT.md",
+        "PRELAUNCH-AUDIT.md"
+      ]
+    },
+    {
+      "id": "7.7",
+      "section": "7 Performance",
+      "requirement": "Stable60FPS on typical physical devices / field INP",
+      "status": "not-established-no-physical-device-proof; desktop-lab-frame-pacing-open",
+      "evidence": [
+        "evidence/master-performance.json",
+        "evidence/master-gpu.json"
+      ]
+    }
+  ],
+  "ownerOnlyInputs": [
+    "Backend HTTPS hosting with persistent disk (Pages cannot execute Node/SQLite)",
+    "Verified operator/legal contacts/address, delivery/warranty/returns/privacy retention and legal basis",
+    "Actual inventory/photos/prices; no fabricated promotions",
+    "Optional real analytics ID/consent strategy, actual reviews/team photos and genuine response guarantee"
+  ],
+  "finalArtifacts": "/workspace/technoimperiya-t843-final",
+  "ownerFactsNeeded": [
+    "Real Node hosting/HTTPS origin/persistent disk (Pages has no backend)",
+    "Verified inventory, real promotion and any markup rules",
+    "Operator/legal name/contact, privacy basis/retention, delivery/payment/warranty/return terms",
+    "Optional actual analytics ID, physical address/map, real reviews/team photos/response guarantee"
+  ]
+}
