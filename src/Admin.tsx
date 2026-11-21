@@ -1,3 +1,4 @@
+import './admin.css';
 import { useEffect, useState, type FormEvent } from 'react';
 import { Link } from 'react-router-dom';
 import { api, ApiError } from './api';
