@@ -1,0 +1,9 @@
+/* Shared commerce styles must load before any admin route is visited. */
+.checkout-fields{margin:0;padding:0;border:0;min-width:0}.product-thumbnails{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;padding:16px}.product-thumbnails button{background:#191c22;padding:4px;border:1px solid #565b66;border-radius:8px}.product-thumbnails button[aria-pressed=true]{border:2px solid #f33242}.product-thumbnails img{object-fit:contain;max-width:84px}.add-button:disabled,.detail-actions .button:disabled{cursor:not-allowed;opacity:.5}.checkout-fields .field-error{line-height:1.6}
+.product-visual:has(.real-product-image){overflow:hidden}
+.product-visual:has(.real-product-image) .product-image-link{position:absolute;inset:44px 18px 16px;width:auto;height:auto;min-height:0;min-width:0}
+.product-visual .product-image-transition{min-height:0}
+.product-visual .real-product-image{min-height:0;min-width:0;max-width:100%;max-height:100%;object-fit:contain;pointer-events:none}
+.detail-visual:has(.real-product-image){flex-direction:column;aspect-ratio:auto;min-height:400px;overflow:hidden;gap:14px}
+.detail-visual:has(.real-product-image) .detail-image-transition{height:clamp(220px,35vw,450px);min-height:0;flex:none}
+.detail-visual .real-product-image{min-height:0;min-width:0;max-height:450px;object-fit:contain}
