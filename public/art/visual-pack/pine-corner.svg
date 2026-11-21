@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" fill="none">
+<defs><linearGradient id="b" x1="60" y1="20" x2="420" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#17452F"/><stop offset=".55" stop-color="#0B2B20"/><stop offset="1" stop-color="#061710"/></linearGradient><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFE7A1"/><stop offset="1" stop-color="#B87817"/></linearGradient></defs>
+<g stroke="#183F2D" stroke-width="13" stroke-linecap="round"><path d="M10 12C135 70 200 170 505 400"/></g>
+<g fill="url(#b)" stroke="#1D5037" stroke-width="2">
+<path d="M40 28 14 8l55 8-30-16 71 34-13-27 47 53-3-33 38 66-8-36 33 82-19-20 22 76-30-28 10 85-34-39-5 90-29-50-25 72-10-61-43 49 6-71-53 28 27-63-66 7 53-46-69-13 78-28-69-35 88-7Z"/>
+<path d="M145 118 117 92l61 17-30-22 78 40-13-33 49 66-4-39 42 78-22-19 27 78-39-30 13 83-44-43-3 85-34-56-33 75-8-64-54 47 12-75-62 26 37-66-72 3 62-44-74-22 89-21-72-43 93 1Z"/>
+<path d="M270 225 244 196l58 21-28-24 76 42-10-34 45 67-5-38 40 76-22-18 23 72-36-30 8 75-41-40-5 79-30-50-29 69-10-60-48 41 10-69-58 23 33-60-68 1 57-39-67-23 81-17-67-41 85 3Z"/>
+</g>
+<g fill="url(#g)" stroke="#FFF0C1" stroke-width="3"><circle cx="100" cy="90" r="14"/><circle cx="213" cy="180" r="12"/><circle cx="365" cy="290" r="15"/></g>
+<g fill="#B51225" stroke="#F5D8B5" stroke-width="2"><circle cx="154" cy="124" r="12"/><circle cx="300" cy="236" r="11"/><circle cx="423" cy="326" r="12"/></g>
+</svg>
