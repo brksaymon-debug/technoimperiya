@@ -1,0 +1,17 @@
+{
+  "assetsBytes": {
+    "brand-header-transparent-small.png": 181619,
+    "ded-moroz-mobile-416.webp": 76590,
+    "ded-moroz-mobile-692.webp": 156276,
+    "holiday-environment-mobile.webp": 19184
+  },
+  "environmentCrop": {
+    "left": 0,
+    "top": 0,
+    "width": 416,
+    "height": 576,
+    "matches": "existing mobile object-position:0% center"
+  },
+  "originalPngMasterUnchanged": true,
+  "desktopEnvironmentAndSantaPngUnchanged": true
+}

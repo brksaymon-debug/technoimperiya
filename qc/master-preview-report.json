@@ -1,0 +1,139 @@
+{
+  "checks": [
+    "Responsive 360/768/1024/1440: no overflow; complete original transparent PNG with preserved ratio; self-hosted Cyrillic typography",
+    "One global honest preview disclosure; 5 native FAQ; atmospheric visual surfaces retained",
+    "Keyboard collection activation immediately opens condition-filtered existing catalog",
+    "Cart add, accessible dialog, quantity and close controls remain functional",
+    "Unique route titles/descriptions, canonical/OG/Twitter/JSON-LD, no demo Offers, prelaunch noindex, real 404 UI",
+    "Mobile sticky checkout CTA uses the existing validated form; no false thank-you; static admin is explicitly unavailable",
+    "Mobile touch card navigation filters existing items, no horizontal overflow",
+    "Native scroll reaches all lower content and keyboard-native FAQ; reduced-motion surfaces immediately final",
+    "Actual scroll changes only atmospheric/image depth; orchestrated hero and scroll visuals coexist with immediate actions",
+    "No runtime exceptions, missing assets or backend requests in static preview"
+  ],
+  "sizes": [
+    {
+      "width": 360,
+      "document": 360,
+      "logoWidth": 184,
+      "logoHeight": 63.328125,
+      "naturalWidth": 184,
+      "src": "http://127.0.0.1:39853/technoimperiya/art/brand-header-transparent-half.png",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Commissioner, Arial, sans-serif"
+    },
+    {
+      "width": 768,
+      "document": 768,
+      "logoWidth": 224,
+      "logoHeight": 77.109375,
+      "naturalWidth": 224,
+      "src": "http://127.0.0.1:39853/technoimperiya/art/brand-header-transparent-half.png",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Commissioner, Arial, sans-serif"
+    },
+    {
+      "width": 1024,
+      "document": 1024,
+      "logoWidth": 244,
+      "logoHeight": 83.984375,
+      "naturalWidth": 268,
+      "src": "http://127.0.0.1:39853/technoimperiya/art/brand-header-transparent-half.png",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Commissioner, Arial, sans-serif"
+    },
+    {
+      "width": 1440,
+      "document": 1440,
+      "logoWidth": 268,
+      "logoHeight": 92.25,
+      "naturalWidth": 268,
+      "src": "http://127.0.0.1:39853/technoimperiya/art/brand-header-transparent-half.png",
+      "background": "rgba(0, 0, 0, 0)",
+      "font": "Commissioner, Arial, sans-serif"
+    }
+  ],
+  "titles": {
+    "catalog": "Каталог телевизоров — Техноимперия",
+    "compare": "Сравнение телевизоров — Техноимперия",
+    "privacy": "Персональные данные — Техноимперия",
+    "checkout": "Оформление заказа — Техноимперия",
+    "missing-page": "Страница не найдена — Техноимперия"
+  },
+  "reduced": {
+    "opacity": "1",
+    "clip": "none"
+  },
+  "depthTransforms": [
+    "matrix(1, 0, 0, 1, 0, -13.4861)",
+    "matrix(1, 0, 0, 1, 0, -10.8597)"
+  ],
+  "timing": {
+    "navigation": {
+      "name": "http://127.0.0.1:39853/technoimperiya/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 25.800000000745058,
+      "navigationId": 6077,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.5,
+      "domainLookupStart": 0.5,
+      "domainLookupEnd": 0.5,
+      "connectStart": 0.5,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.5,
+      "requestStart": 1.1000000014901161,
+      "responseStart": 2.7000000029802322,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 2.7000000029802322,
+      "responseEnd": 2.900000002235174,
+      "transferSize": 1817,
+      "encodedBodySize": 1517,
+      "decodedBodySize": 1517,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 4.600000001490116,
+      "unloadEventEnd": 4.600000001490116,
+      "domInteractive": 8.900000002235174,
+      "domContentLoadedEventStart": 25.700000002980232,
+      "domContentLoadedEventEnd": 25.700000002980232,
+      "domComplete": 25.800000000745058,
+      "loadEventStart": 25.800000000745058,
+      "loadEventEnd": 25.800000000745058,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "lcpMs": 172,
+    "cls": 0.0003596462399603676,
+    "resourceEncodedBytes": 2560868
+  },
+  "errors": [],
+  "missingAssets": [],
+  "backendRequests": [],
+  "toolLimits": "Lighthouse, axe-core and @axe-core/playwright unavailable; no dependencies added. Local headless timing only, not field Core Web Vitals.",
+  "phase": "Functional/motion checks before subsequent Lighthouse-driven accessibility/favicon-only corrections",
+  "recordedBuildAssets": [
+    "AdminPreview-iZDIok9K.js",
+    "index-CPcJolmv.js",
+    "index-DnrdG4-Y.css"
+  ]
+}
